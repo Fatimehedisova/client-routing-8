@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pages-name{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.active{
+    color: red;
+}
+.about{
+    display: flex;
+    align-items: center;
+    
+    gap: 70px;
+    margin: 70px;
+}
+.about p{
+    font-size: 18px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    
+    gap: 70px;
+    margin: 70px;
+}
+.home{
+    margin: 70px;
+}
+.examples{
+   margin: 70px;
+}
